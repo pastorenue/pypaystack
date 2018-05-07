@@ -33,7 +33,7 @@ class BaseAPI(object):
         return { 
                 "Content-Type": self._CONTENT_TYPE, 
                 "Authorization": "Bearer " + self._PAYSTACK_AUTHORIZATION_KEY,
-                "user-agent": "pyPaystack-{}".format(version.__version__)
+                "user-agent": "pyPaystack"
                 }
 
 
